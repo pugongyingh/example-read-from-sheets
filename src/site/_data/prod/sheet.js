@@ -6,7 +6,7 @@ const seed   = require('../../../utils/save-seed.js');
 // via a URL of this form. We just need to pass in the ID of the sheet
 // which we can find in the URL of the document.
 const sheetID = "1CfI6XGm9OjjNKGr3kXRSKVLui_gkHZdadoOPIiNgE9s";
-const googleSheetUrl = `https://spreadsheets.google.com/feeds/list/${sheetID}/od6/public/values?alt=json`;
+const googleSheetUrl = `https://docs.google.com/spreadsheets/d/1_Xj3V6ovLEnK6u73PofcrJlG-XsgxBaQGK_wyUPXpYo/edit?usp=sharing`;
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
